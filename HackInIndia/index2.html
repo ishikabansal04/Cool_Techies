@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang = "en">
+<head>
+	<meta charset = "UTF-8">
+	<title>Drop-down-Menu-Bar</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- <link rel = "stylesheet" href = "style.css"> -->
+    <link rel="stylesheet" href="modal.css">
+    <link rel="stylesheet" href="modal2.css">
+	<link rel = "stylesheet" href = "https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+	<!-- <link rel = "stylesheet" href = "bootstrap/css/bootstrap-grid.css"> -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+    <script src="main.js"></script>
+</head>
+<body>
+    <section id = "white-background"></section>
+	<section id = "dlgbox">
+		<header id = "top">
+			You Want To use as?
+		</header>
+
+		<main id = "body">
+		 Kindly choose one.
+		</main>
+
+		<footer id = "bottom">
+            <button id="patient"onclick= "showFirstAid()">Patient</button>
+            <button id="medical"onclick= "dlgLogin()">Medical Team</button>
+        </footer>
+	</section>
+	<!-- <button onclick = "showDialogue()"></button> -->
+    <!-- <script src="main.js"></script> -->
+    <!-- <button id="modalBtn" class="button">Click here</button> -->
+  
+    <div id="simpleModal">
+        <div class="modal-content">
+            <div class="modal-header">
+                <p>Don't let patient lose consciousness. Give him room and space stay calm, Do not panic or loose control.</p>
+                <span class="closeBtn">&times;
+                </span>
+              
+             </div>
+             <div class="modal-body">
+                <h3>Heart Attack</h3>
+                <ul>
+                    <li>Losen the clothes</li>
+                    <li>Chew Aspirin</li>
+                    <li>Rub Chest, palms & feet to get oxygen</li>
+                    <li>give the patient CPR, if his/her stops beating or slows down</li>
+                </ul>
+                <h3>Burns & Acid Attack</h3>
+                <ul>
+                    <li>Flush burnt part with plenty of saline water</li>
+                    <li>Gently Remove if Any clothing substance on it</li>                
+                </ul>
+                <h3>Head Injury/ Blood Loss</h3>
+                <ul>
+                    <li>tie a clean cloth, so that loss of blood can be prevented</li>
+                    <li>Observe breathing pattern, begin CPR if critical</li>
+                    <li>Mouth to mouth breathing</li>
+                </ul>
+                <h3>Fracture</h3>
+                <ul>
+                    <li>Stop bleeding if any</li>
+                    <li>Immobilise injured area</li>
+                    <li>Apply ice packs</li>
+                    <li>Treat for shock</li>
+                </ul>
+             </div>
+             <div class="modal-footer">
+                 <p> Constantly boost him everything is okay!</p>
+             </div>
+        </div>
+    </div>
+
+</body>
+</html>

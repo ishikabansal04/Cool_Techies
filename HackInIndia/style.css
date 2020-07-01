@@ -1,0 +1,152 @@
+header{
+    text-align: center;
+	background: #000000/*#CBE432/ /#293f50*/;
+	height:151px;
+	color:white;
+	width:100vw;
+	padding-top: 0.0020%;
+}
+body{
+	padding: 0px;
+	margin: 0px;
+}
+#heading{
+	margin-bottom: 7px;
+	font: inherit;
+	font-size: 52px;
+	margin-top: 13px;
+	color: #FFFFFF;
+
+}
+/* .current{
+	background: #5AC8FA;
+} */
+ul{
+	padding: 0;
+	margin: 0;
+	list-style: none;
+	z-index:99;
+	height:auto;
+}
+
+ul li{
+	float: left;
+	width: 220px;
+	height: 40px;
+	margin:0 4px 2px 4px;
+	border-radius: 5px;
+	background: #888;
+	/* opacity: 0.8; */
+	line-height: 40px; 
+	text-align: center;
+	font-size:18px;
+	color: black;
+	z-index: 99;
+	font-size: 20px;
+}
+ul li:first-child{
+	margin-left: 20px;
+	width: 220px;
+}
+ul li a{
+	text-decoration: none;
+    color: white;
+}
+ul li:hover{
+	background: #1ba1e2/*#7FBD32//green/ /#9BD770*/;
+	transition: ease-in 0.1s;
+}
+
+ul li:nth-child(2):hover {
+	border-radius: 5px 5px 0px 0px;
+}
+
+ul li:nth-child(3):hover {
+	border-radius: 5px 5px 0px 0px;
+}
+
+ul li ul li{
+	display: none;
+}
+
+ul li:hover ul li{
+	display: inline-block;
+	border-radius: 0px;
+	margin: 0px;
+	transition: ease-in 0.1s;
+}
+
+ul li:hover ul li:first-child{
+	border-radius: 0px;
+}
+
+ul li:hover ul li:last-child{
+	border-radius: 0px 0px 5px 5px;
+}
+
+ul li .fa{
+	margin-right: 4%;
+}
+
+.navbar2{
+	/* margin-right:0px; */
+	margin-left:1192px;
+	/* border-left: 3px solid black; */
+	height: 100vh;
+	border-top: 3px solid black;
+	/* background-color: aliceblue; */
+	background-color:black;
+	opacity: 0.8;
+	width:100vw;/*157*/
+	margin-top: 0%;
+
+}
+.navbar2 h2{
+	text-align: relative;
+	padding-top: 10px;
+	color:#9BD770;
+	font: inherit;
+	font-size: 25px;
+	padding-left: 2%;
+}
+.navbar2 ul li{
+	width: 20%;
+	height: 35px;
+	margin:1px;
+	border-radius: 5px;
+	background-color:black;
+	opacity: 0.8;
+	line-height: 40px; 
+	text-align: left;
+	float: none;
+	font-size: 18px;
+	color:whitesmoke;
+	padding-left: 2%;
+} 
+.flex-container{
+	width: 100vw;
+	padding-top: 0%;
+	margin-top: 0%;
+	float:left;
+	padding-left:1%;
+	height: 100vh;
+}
+
+.row{
+	/* border: 1px solid #888; */
+	background-color: #EDF4EF;/*#F3F7D4//#e8f2e2/;/#d7edca;// #f4ebeb;/ /#edf4ef;*/
+	/* opacity:0.6%; */
+	height: 30px;
+}
+.col{
+    border-bottom: 0.5px ridge #888;
+	border-right: 0.5px ridge #888;
+	/* border-left: 1px solid #888; */
+}
+a{
+	text-decoration: none !important; 
+}
+a:hover{
+	color:rgb(256, 256, 256) !important;
+}
+
