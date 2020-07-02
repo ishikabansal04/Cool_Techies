@@ -1,6 +1,6 @@
 
 		function dlgLogin(){
-            window.open("index.html");
+            window.open("index2.html");
 			// var whitebg = document.getElementById("white-background");
 			// var dlg = document.getElementById("dlgbox");
 			// whitebg.style.display = "none";
